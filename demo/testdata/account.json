@@ -1,0 +1,7 @@
+{
+ "state":{"address":"0x0000000000000000000000000000000000000000","balances":[{"asset":"USDC","total":"1000","available":"900"}],"positions":[{"symbol":"BTC-USDC","quantity":"0.01","entry_price":"69000","unrealized_pnl":"10","margin_mode":"cross"}],"equity":"1010","margin_used":"100"},
+ "open_orders":[{"id":"synthetic-open-1","symbol":"BTC-USDC","side":"buy","price":"69900","quantity":"0.001","status":"open"}],
+ "historical_orders":[{"id":"synthetic-history-1","symbol":"BTC-USDC","side":"buy","price":"69000","quantity":"0.01","status":"filled"}],
+ "fills":[{"trade":{"id":"synthetic-fill-1","symbol":"BTC-USDC","side":"buy","price":"69000","size":"0.01","timestamp":"2026-10-13T12:00:00Z"},"order_id":"synthetic-history-1","fee":"0.1"}],
+ "funding":[{"symbol":"BTC-USDC","amount":"-0.0001","timestamp":"2026-10-13T12:00:00Z"}]
+}

@@ -1,0 +1,8 @@
+[
+ {"snapshot":{"symbol":"BTC-USDC","bids":[{"price":"69999.9","size":"1.25"},{"price":"69999.8","size":"2"}],"asks":[{"price":"70000.1","size":"0.75"},{"price":"70000.2","size":"3"}],"timestamp":"2026-10-13T12:00:00Z","sequence":100}},
+ {"delta":{"symbol":"BTC-USDC","sequence":101,"bids":[{"price":"69999.9","size":"0"},{"price":"70000","size":"1"}],"asks":[],"timestamp":"2026-10-13T12:00:01Z"}},
+ {"delta":{"symbol":"BTC-USDC","sequence":101,"bids":[],"asks":[],"timestamp":"2026-10-13T12:00:01Z"}},
+ {"delta":{"symbol":"BTC-USDC","sequence":103,"bids":[],"asks":[],"timestamp":"2026-10-13T12:00:03Z"}},
+ {"snapshot":{"symbol":"BTC-USDC","bids":[{"price":"70000","size":"1"}],"asks":[{"price":"70000.2","size":"2"}],"timestamp":"2026-10-13T12:00:03Z","sequence":103}},
+ {"delta":{"symbol":"BTC-USDC","sequence":104,"bids":[],"asks":[{"price":"70000.2","size":"3"}],"timestamp":"2026-10-13T12:00:04Z"}}
+]

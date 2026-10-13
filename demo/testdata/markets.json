@@ -1,0 +1,19 @@
+{
+ "markets":[
+  {"symbol":"BTC-USDC","kind":"perpetual","base_asset":"BTC","quote_asset":"USDC","price_increment":"0.1","quantity_increment":"0.001"},
+  {"symbol":"ETH-USDC","kind":"spot","base_asset":"ETH","quote_asset":"USDC","price_increment":"0.01","quantity_increment":"0.0001"}
+ ],
+ "assets":[{"symbol":"BTC","name":"Synthetic Bitcoin"},{"symbol":"ETH","name":"Synthetic Ether"},{"symbol":"USDC","name":"Synthetic USD Coin"}],
+ "books":[
+  {"symbol":"BTC-USDC","bids":[{"price":"69999.9","size":"1.25"},{"price":"69999.8","size":"2"}],"asks":[{"price":"70000.1","size":"0.75"},{"price":"70000.2","size":"3"}],"timestamp":"2026-10-13T12:00:00Z","sequence":100},
+  {"symbol":"ETH-USDC","bids":[{"price":"2999.99","size":"5"}],"asks":[{"price":"3000.01","size":"4"}],"timestamp":"2026-10-13T12:00:00Z"}
+ ],
+ "trades":[
+  {"id":"synthetic-1","symbol":"BTC-USDC","side":"buy","price":"70000.1","size":"0.001","timestamp":"2026-10-13T12:00:00Z"},
+  {"id":"synthetic-2","symbol":"ETH-USDC","side":"sell","price":"2999.99","size":"0.01","timestamp":"2026-10-13T12:00:00Z"}
+ ],
+ "tickers":[
+  {"symbol":"BTC-USDC","last":"70000.1","mark":"70000","oracle":"70000.05","funding_rate":"0.00001","open_interest":"1000.125","timestamp":"2026-10-13T12:00:00Z"},
+  {"symbol":"ETH-USDC","last":"2999.99","timestamp":"2026-10-13T12:00:00Z"}
+ ]
+}
